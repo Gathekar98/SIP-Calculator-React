@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  width: 50%;
+  margin: 100px auto;
+}
+.range-slider {
+  padding: 20px;
+}
