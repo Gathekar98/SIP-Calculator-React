@@ -30,6 +30,7 @@ const SIPCalculator = () => {
         value={investment}
         onChange={setInvestment}
         label="Monthly Investment"
+        symbol="Rs."
       />
 
       <RangeSlider
@@ -39,6 +40,7 @@ const SIPCalculator = () => {
         value={duration}
         onChange={setDuration}
         label="Duration (Years)"
+        symbol="yrs"
       />
 
       <RangeSlider
@@ -48,6 +50,7 @@ const SIPCalculator = () => {
         value={returnRate}
         onChange={setReturnRate}
         label="Expected Return Rate"
+        symbol="%"
       />
 
       <h3>Estimated Future Value: ₹{calculateSIP()}</h3>
