@@ -59,4 +59,3 @@ const SIPCalculator = () => {
 };
 
 export default SIPCalculator;
-z;
