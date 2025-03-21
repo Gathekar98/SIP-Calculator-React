@@ -2,12 +2,12 @@ import React from "react";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 
-const RangeSlider = ({ min, max, step, value, onChange, label, symbol }) => {
+const RangeSlider = ({ min, max, step, value, onChange, label, symbols }) => {
   return (
     <div className="range-slider">
       <label>
         {label}: {value}
-        {symbol}
+        {symbols}
       </label>
       <Slider
         min={min}
