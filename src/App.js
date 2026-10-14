@@ -3,9 +3,10 @@ import SIPCalculator from "./components/SIPCalculator";
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App">
       <SIPCalculator />
     </div>
   );
 }
+
 export default App;
